@@ -1,0 +1,71 @@
+{
+  "env": {
+    "production": {
+      "presets": [
+        "react",
+        ["env", {
+          "targets": {
+            "browsers": ["last 2 versions"]
+          }
+        }]
+      ],
+      "plugins": [
+        "transform-runtime",
+        "transform-class-properties",
+        "syntax-flow",
+        "transform-flow-strip-types",
+        ["transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ],
+      "comments": false
+    },
+    "development": {
+      "presets": [
+        "react",
+        ["env", {
+          "targets": {
+            "browsers": ["last 2 versions"]
+          }
+        }]
+      ],
+      "plugins": [
+        "react-hot-loader/babel",
+        "transform-runtime",
+        "transform-class-properties",
+        "syntax-flow",
+        "transform-flow-strip-types",
+        ["transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ],
+      "comments": false
+    },
+    "testing": {
+      "presets": [
+        "react",
+        ["env", {
+          "targets": {
+            "browsers": ["last 2 versions"]
+          }
+        }]
+      ],
+      "plugins": [
+        "transform-runtime",
+        "transform-class-properties",
+        "syntax-flow",
+        "transform-flow-strip-types",
+        ["transform-object-rest-spread",
+          {
+            "useBuiltIns": true
+          }
+        ]
+      ],
+      "comments": false
+    }
+  }
+}

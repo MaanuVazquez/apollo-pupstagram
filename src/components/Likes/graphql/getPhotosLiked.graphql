@@ -1,0 +1,6 @@
+query {
+    likedPhotos @client {
+        url
+        id
+    }
+}

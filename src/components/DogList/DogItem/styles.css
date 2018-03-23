@@ -1,0 +1,11 @@
+.dogImage {
+  max-width: 80%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid mediumaquamarine;
+}
+
+.dogLink {
+  text-decoration: none;
+  color: #000;
+}

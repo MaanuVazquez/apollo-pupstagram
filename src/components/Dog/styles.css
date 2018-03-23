@@ -1,0 +1,26 @@
+.puppyInfoBlock {
+  width: 100%;
+  height: 200px;
+}
+
+.puppyInfo {
+  float: left;
+  margin-left: 40px;
+}
+
+.puppyImage {
+  width: 100px;
+  height: 100px;
+}
+
+.puppyLinkBack {
+  float: right;
+  margin-right: 40px;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.puppyInfo {
+  font-weight: bold;
+  font-size: 20px;
+}

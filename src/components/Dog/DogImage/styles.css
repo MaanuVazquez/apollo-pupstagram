@@ -1,0 +1,12 @@
+
+.puppyLikableImage {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.puppyHeart {
+  font-size: 40px;
+  display: block;
+  cursor: pointer;
+}

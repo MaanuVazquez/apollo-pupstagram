@@ -1,0 +1,12 @@
+query getDog($breed: String!) {
+    dog(breed: $breed) {
+        id
+        breed
+        displayImage
+        images {
+            url
+            id
+            isLiked @client
+        }
+    }
+}

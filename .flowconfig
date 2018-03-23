@@ -1,0 +1,25 @@
+[ignore]
+<PROJECT_ROOT>/shared/.*
+<PROJECT_ROOT>/tmp/.*
+.*/build/.*
+.*/config/.*
+.*/src/.*\.spec\..*
+.*/node_modules/moment/.*
+.*/node_modules/classnames/.*
+.*/node_modules/react-hot-loader/.*
+.*/node_modules/react-redux/.*
+.*/node_modules/react-router/.*
+.*/node_modules/react-router-dom/.*
+.*/node_modules/redux/.*
+.*/node_modules/config-chain/.*
+[libs]
+flow-typed
+
+[options]
+module.ignore_non_literal_requires=true
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+suppress_comment=.*\\$FlowIssue.*
+suppress_type=$FlowTODO
+emoji=true
+module.name_mapper.extension='graphql' -> '<PROJECT_ROOT>/flow-stubs/gqlObject.js'

@@ -1,0 +1,3 @@
+mutation toggleLikedPhoto($id: String!) {
+    toggleLikedPhoto(id: $id) @client
+}
